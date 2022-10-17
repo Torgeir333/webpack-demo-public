@@ -4,7 +4,7 @@ const loader = require('sass-loader');
 
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: {
         bundle: path.resolve(__dirname, 'src/index.js')
     },
@@ -14,7 +14,6 @@ module.exports = {
         clean: true,
         assetModuleFilename: '[name][ext]',
     },
-    devtool: 'source-map',
     devServer: {
         static: {
             directory: path.resolve(__dirname, 'dist')
