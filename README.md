@@ -1,7 +1,7 @@
 # webpack-demo-public
 
-Dette er et demo repo for bruk av webpack
-Modifisert etter Brad Traversy webpack 5 demo
+Dette er et demo repo for bruk av webpack,
+modifisert etter Brad Traversy webpack 5 demo
 
 Merk: final commit setter mode til production 
 for å minske størrelse på bundle, og fjerner
